@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+  
+   align-items: center;
+    background-color: black;
+    
+    color: darkgreen;
+  padding: -5px;
+}
+.iq{
+    color: aliceblue;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-links{
+    list-style-type: none;
+  display: flex;
+   align-items: center;
+}
+ 
+.nav-links li{
+    
+  margin: 0 10px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.80rem;
+    
+}
+.nav-links a:hover{
+    color: rgb(16, 240, 98);
+}
+.songItemcontanier{
+   margin-top: 20px;
+}
+.container{
+    min-height: 66vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width: 70%;
+  border-radius:12px ;
+  padding: 24px;
+    margin: 23px auto;
+    background-image: url(image/R-removebg-preview.png) ;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: azure;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgreeessBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+  .icons i {
+    margin: 14px; 
+      cursor: pointer;     
+    color: white;          
+  }
+
+  .icons i:hover {
+    color: #007bff;      
+  }
+  .songItem{
+    height: 20px;
+    display: flex;
+    background-color: aliceblue;
+    width: 50%;
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+  }
+  .songItem img{
+    width: 25px;
+    margin: 0 23px;
+    border-radius: 100px;
+
+  }
+  .time{
+    margin:  3px;
+    font-size: 10px;
+  }
+  .time i{
+    cursor: pointer;
+  }
+  .is{
+    font-size: 10px;
+  }
+  .songinfo{
+    position: absolute;
+    left: 10vw;
+   
+  }
+ 
+ 
